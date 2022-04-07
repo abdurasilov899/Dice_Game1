@@ -7,10 +7,11 @@ import java.util.Scanner;
 public class Main {
     static Random rnd = new Random();
     static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
         Kub1Game();
+
     }
+
     static void kub1NewGame() {
         int a = scanner.nextInt();
         switch (a) {
